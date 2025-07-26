@@ -20,7 +20,19 @@
     --lg-weight: 700;
  }
  
- 
+ body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--font-fam);
+    font-size: var(--body-font);
+ }
+
+ main img {
+    width: 50%;
+ }
  
  .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
